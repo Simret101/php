@@ -9,8 +9,10 @@ $array1=["name"=>"simret","rose"=>"red"];
 print_r($array1);
 $array1["name"]="shalom";
  echo $array2[0];
+ echo count($array2);
+ array_push($array2,7);
 
 
-
+print_r($array2);
 
 ?>
