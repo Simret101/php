@@ -1,5 +1,6 @@
 <?php
 if (isset($_POST['submit'])){
+
     //check email
     if (empty($_POST['email'])){
         echo "An email shouldn't be empty <br>" ;
@@ -19,6 +20,7 @@ if (isset($_POST['submit'])){
         echo $_POST['ingredients'];
     }
     
+
 }
 ?>
 <!DOCTYPE html>
