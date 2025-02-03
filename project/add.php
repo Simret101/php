@@ -32,7 +32,11 @@ if (isset($_POST['submit'])){
             $errors['ingredients'] = "ingredients must include a letter and a space only";
         }
     }
-    
+    if (array_filter($errors)){
+
+    }else{
+        header('Location:project.index.php');
+    }
 
 }
 ?>
