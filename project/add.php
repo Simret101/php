@@ -1,6 +1,7 @@
 <?php
 $errors=array("email"=>'',"title"=>'',"ingredients"=>'');
 $email=$title=$ingredients='';
+
 if (isset($_POST['submit'])){
 
     //check email
